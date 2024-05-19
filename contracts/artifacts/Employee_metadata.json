@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAnnualCost",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Abstract contract defining common properties and behavior for employees.",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Constructor to initialize idNumber and managerId.",
+					"params": {
+						"_idNumber": "The unique identifier for the employee.",
+						"_managerId": "The identifier of the manager overseeing the employee."
+					}
+				},
+				"getAnnualCost()": {
+					"details": "Abstract function to be implemented by derived contracts to get the annual cost of the employee.",
+					"returns": {
+						"_0": "The annual cost of the employee."
+					}
+				}
+			},
+			"title": "Employee",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Inheritance.sol": "Employee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Inheritance.sol": {
+			"keccak256": "0x442d4497c999f342e080de1811af7dff25d23d2dd7e6f45439c7d38d616484c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf47be84bc33b0cf03b68554c9a3f976ffa39afdb63ef5527ea97081a6fd96f5",
+				"dweb:/ipfs/QmXMTbbmAbCvZWm74U7o2fgtC7ZGHmM4XXWaQJi6Znq3n9"
+			]
+		}
+	},
+	"version": 1
+}

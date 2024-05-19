@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_reportId",
+						"type": "uint256"
+					}
+				],
+				"name": "addReport",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "employeeIds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetReports",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Contract managing a list of employee IDs.",
+			"kind": "dev",
+			"methods": {
+				"addReport(uint256)": {
+					"details": "Function to add a new employee ID to the list.",
+					"params": {
+						"_reportId": "The ID of the employee to be added."
+					}
+				},
+				"resetReports()": {
+					"details": "Function to reset the list of employee IDs."
+				}
+			},
+			"title": "Manager",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Inheritance.sol": "Manager"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Inheritance.sol": {
+			"keccak256": "0x442d4497c999f342e080de1811af7dff25d23d2dd7e6f45439c7d38d616484c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf47be84bc33b0cf03b68554c9a3f976ffa39afdb63ef5527ea97081a6fd96f5",
+				"dweb:/ipfs/QmXMTbbmAbCvZWm74U7o2fgtC7ZGHmM4XXWaQJi6Znq3n9"
+			]
+		}
+	},
+	"version": 1
+}
